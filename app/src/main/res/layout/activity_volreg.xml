@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Volreg">
+
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/arbutusslabregular"
+        android:textStyle="bold"
+        android:text="Register here"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/arbutusslabregular"
+        android:drawableLeft="@drawable/ic_name"
+        android:hint="Enter your First Name"
+        android:textColorHint="#C40C0326"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittxtsty"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/arbutusslabregular"
+        android:hint="Enter your Last Name"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_identity"
+        android:textSize="15dp"
+        android:textColorHint="#C40C0326"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittxtsty"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/arbutusslabregular"
+        android:drawableLeft="@drawable/ic_email"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:hint="Enter your E-mail address"
+        android:textColorHint="#C40C0326"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittxtsty"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/arbutusslabregular"
+        android:inputType="number"
+        android:hint="Enter your Phone Number"
+        android:textSize="15dp"
+        android:textColorHint="#C40C0326"
+        android:drawableLeft="@drawable/ic_smartphone"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittxtsty"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your Age"
+        android:fontFamily="@font/arbutusslabregular"
+        android:drawableLeft="@drawable/ic_18"
+        android:drawablePadding="10dp"
+        android:textSize="15dp"
+        android:inputType="number"
+        android:textColorHint="#C40C0326"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittxtsty"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_buildings"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/arbutusslabregular"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your City Name"
+        android:textColorHint="#C40C0326"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:background="@drawable/edittxtsty"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/arbutusslabregular"
+            android:background="@drawable/buttonstlepink"
+            android:textColor="#fff"
+            android:text="Back"/>
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arbutusslabregular"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:background="@drawable/buttonstlepink"
+            android:text="Next"/>
+    </LinearLayout>
+</LinearLayout>

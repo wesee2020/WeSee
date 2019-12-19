@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".Forgotpwd">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/password"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="70dp"
+                 android:textSize="20dp"
+                 android:layout_gravity="center_horizontal"
+                 android:textStyle="bold"
+                 android:fontFamily="@font/arbutusslabregular"
+                 android:layout_marginTop="30dp"
+                 android:text="Forgot Your Control-ID? "
+                 android:textColor="#ffff"/>
+             <EditText
+                 android:layout_width="300dp"
+                 android:layout_height="45dp"
+                 android:gravity="center_horizontal"
+                 android:hint="Enter your phone number"
+                 android:textColorHint="#ffffff"
+                 android:inputType="number"
+                 android:textColor="#ffffff"
+                 android:textSize="15dp"
+                 android:id="@+id/phno"
+                 android:maxLength="10"
+                 android:layout_gravity="center_horizontal"
+                 android:background="@drawable/buttonstyle2"/>
+             <Button
+                 android:layout_marginTop="40dp"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/buttonstlepink"
+                 android:textColor="#fff"
+                 android:fontFamily="@font/arbutusslabregular"
+                 android:layout_gravity="center_horizontal"
+                 android:text="SUBMIT"/>
+
+
+         </LinearLayout>

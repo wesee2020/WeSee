@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Splashmn"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:fontFamily="@font/arbutusslabregular"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:text="Welcome to WeSee"/>
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:text="We-See is an interface which provides help and suppoert to the blind person independently.Over and above they can even take help of volunteers    to work around anytime and anywhere."
+            android:layout_marginTop="25dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstyle2"
+                android:textColor="#fff"
+                android:text="Learn More"/>
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:background="@drawable/buttonstlepink"
+                android:text="Join the Club"/>
+        </LinearLayout> -->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Unique I'D"
+            android:drawablePadding="10dp"
+            android:id="@+id/edt_controlid"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:inputType="textPassword"/>
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstlepink"
+            android:textColor="#fff"
+            android:fontFamily="@font/arbutusslabregular"
+            android:text="Log In"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:fontFamily="@font/arbutusslabregular"
+            android:layout_marginTop="30dp"
+            android:id="@+id/frgtid"
+            android:text="Forgot Your Control-ID ?"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+</LinearLayout>

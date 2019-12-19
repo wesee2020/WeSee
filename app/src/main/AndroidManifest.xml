@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wesee">
+<uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/weseelg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/weseelg"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Selectopt"></activity>
+        <activity android:name=".Splashmn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+          </activity>
+        <activity android:name=".Blindreg">  </activity>
+        <activity android:name=".Forgotpwd"></activity>
+        <activity android:name=".Logblnd">  </activity>
+
+        <activity android:name=".Volreg"></activity>
+        <activity android:name=".Controlblnd"></activity>
+        <activity android:name=".Intro">
+
+        </activity>
+    </application>
+
+</manifest>
